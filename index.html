@@ -8,7 +8,10 @@
     <title>Inorganic Chemistry</title>
     <link rel="stylesheet" href="css/framework7.ios.min.css">
     <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
-    <link rel="stylesheet" href="css/split-view.css"> </head>
+    <link rel="stylesheet" href="css/split-view.css">
+    <script src="chart.js/Chart.min.js"></script>
+    <script src="chart.js/Chart.bundle.min.js"></script>
+</head>
 
 <body>
     <div class="statusbar-overlay"></div>
@@ -38,8 +41,9 @@
                             <div class="list-block">
                                 <ul>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="period3.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Period 3 elements</div>
                                                 </div>
@@ -47,8 +51,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-2.html" class="item-link">
+                                        <a href="left-page-2.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Group 1 elements</div>
                                                 </div>
@@ -56,8 +61,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Group 2 elements</div>
                                                 </div>
@@ -65,8 +71,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Group 4 (14) elements</div>
                                                 </div>
@@ -74,8 +81,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Group 7 (17) elements</div>
                                                 </div>
@@ -88,8 +96,9 @@
                             <div class="list-block">
                                 <ul>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Oxidation and Reduction</div>
                                                 </div>
@@ -97,8 +106,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-2.html" class="item-link">
+                                        <a href="left-page-2.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Complex Ions</div>
                                                 </div>
@@ -106,8 +116,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Transition Metals</div>
                                                 </div>
@@ -115,8 +126,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="left-page-1.html" class="item-link">
+                                        <a href="left-page-1.html" data-view=".view-main" class="item-link close-panel">
                                             <div class="item-content">
+                                                <div class="item-media"><i class="icon"></i></div>
                                                 <div class="item-inner">
                                                     <div class="item-title">Metal Extraction</div>
                                                 </div>
@@ -152,8 +164,9 @@
                         <div class="list-block tablet-inset">
                             <ul>
                                 <li>
-                                    <a href="left-page-1.html" class="item-link">
+                                    <a href="period3.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Period 3 elements</div>
                                             </div>
@@ -163,6 +176,7 @@
                                 <li>
                                     <a href="left-page-2.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Group 1 elements</div>
                                             </div>
@@ -172,6 +186,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Group 2 elements</div>
                                             </div>
@@ -181,6 +196,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Group 4 (14) elements</div>
                                             </div>
@@ -190,6 +206,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Group 7 (17) elements</div>
                                             </div>
@@ -204,6 +221,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Oxidation and Reduction</div>
                                             </div>
@@ -213,6 +231,7 @@
                                 <li>
                                     <a href="left-page-2.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Complex Ions</div>
                                             </div>
@@ -222,6 +241,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Transition Metals</div>
                                             </div>
@@ -231,6 +251,7 @@
                                 <li>
                                     <a href="left-page-1.html" class="item-link">
                                         <div class="item-content">
+                                            <div class="item-media"><i class="icon"></i></div>
                                             <div class="item-inner">
                                                 <div class="item-title">Metal Extraction</div>
                                             </div>
