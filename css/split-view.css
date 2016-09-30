@@ -20,6 +20,15 @@ body.with-panel-right-reveal .panel-overlay {
     margin-left: 0;
 }
 
+@media (max-width: 569px) {
+    .graph {
+        height: 300px;
+        padding-left: 0%;
+        padding-right: 0%;
+        align-self: center
+    }
+}
+
 @media (min-width: 569px) {
     .panel.panel-left.panel-cover {
         width: 320px;
@@ -29,6 +38,14 @@ body.with-panel-right-reveal .panel-overlay {
         -webkit-transform: translate3d(320px, 0, 0);
         -ms-transform: translate3d(320px, 0, 0);
         transform: translate3d(320px, 0, 0);
+    }
+    .graph {
+        padding-left: 10%;
+        padding-right: 10%;
+        align-self: center
+    }
+    canvas {
+        height: 300px;
     }
 }
 
